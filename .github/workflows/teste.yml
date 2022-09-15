@@ -1,4 +1,4 @@
-name: Filipe Dechamps
+name: teste
 
 on:
   
@@ -25,4 +25,4 @@ jobs:
           python -m pip freeze
           
       - name: Run script
-        run: python newsletter_dechamps.py  ${{ secrets.MAIL_ADDRESS }}  ${{ secrets.DISCORD_WEBHOOK }}
+        run: python teste.py
